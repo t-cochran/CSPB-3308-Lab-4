@@ -19,17 +19,11 @@ int main(int argc, char* argv[])
     mango.color = "orange";
     mango.rating = 8;
 
-    Fruit kiwi;
-    kiwi.name = "kiwi";
-    kiwi.color = "green";
-    kiwi.rating = 4;
-
     /* Fill our basket with delicious fruit */
     Fruit_Basket* fruit_basket = new Fruit_Basket;
     fruit_basket -> push_fruit(banana);
     fruit_basket -> push_fruit(apple); 
     fruit_basket -> push_fruit(mango); 
-    fruit_basket -> push_fruit(kiwi); 
 
     /* gimme an apple */
     fruit_basket -> gimme("apple");
@@ -41,6 +35,5 @@ int main(int argc, char* argv[])
     fruit_basket -> find_tastiest();
 
     return 0;
-
 }
 
