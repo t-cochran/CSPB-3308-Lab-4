@@ -34,6 +34,8 @@ int main(int argc, char* argv[])
     /* What's the tastiest one? */
     fruit_basket -> find_tastiest();
 
+    /* There will be no fruit basket memory leaks today */
+
     return 0;
 }
 
