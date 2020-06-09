@@ -1,6 +1,8 @@
 This might cause a merge conflict.
 # Lab 4: Version Control
 
+Partner: Thomas Dolan (tjdolan121)
+
 ### Objectives
 * Create a git repository
 * Work with another person and a git repository
