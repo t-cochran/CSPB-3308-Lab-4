@@ -1,6 +1,10 @@
 Name: Thomas Cochran (Github username: t-cochran)
 Partner: Thomas Dolan (Github username: tjdolan121)
 
+
+First attempt did not create a merge conflict:
+
+GIT LOG:
 *   4872138 (HEAD -> master) Merge branch 'master' of https://github.com/t-cochran/CSPB-3308-Lab-4
 |\  
 | * 87cdfea (origin/master, origin/HEAD) Added tjdolan121 as partner
@@ -21,9 +25,44 @@ Partner: Thomas Dolan (Github username: tjdolan121)
 * 09a9294 Fruit basket commit
 * 1d3e2d4 Initial commit
 
+
+
 Second attempt to create a merge conflict:
+
+CONFLICT:
 <<<<<<< HEAD
 **Each person works on their own repository until step 14 this might cause a merge conflict.**
 =======
 **Each person works on their own repository until step 14.**  TRYING TO MAKE A CONFLICT
 >>>>>>> b493bd43311106bf7c88e6edc4c7fc6277ebc83e
+
+GIT LOG:
+*   3a27ac4 (HEAD -> master, origin/master, origin/HEAD) Resolved the merge conflict
+|\  
+| *   b493bd4 Merge branch 'master' of https://github.com/t-cochran/CSPB-3308-Lab-4
+| |\  
+| * | 2a9b30d Added another conflict
+* | | 5130327 Creating another merge conflict
+| |/  
+|/|   
+* | db36686 Added merge resolution log file
+* | 4872138 Merge branch 'master' of https://github.com/t-cochran/CSPB-3308-Lab-4
+|\| 
+| * 87cdfea Added tjdolan121 as partner
+* | fe5e52d This might cause a merge conflict
+|/  
+*   dfc7c44 Merging 'testing-new-files' with master.
+|\  
+| * db69209 (origin/testing-new-files, testing-new-files) Created a folder for fruit images
+| * 6d28a43 Added a apple picture
+| * abbaa30 Added a strawberry picture
+| * 1ffa8dc Added a mango picture
+* | 1c42a28 Added a pineapple to main
+|/  
+* 030fb38 (tag: v0.0.1) Fixed fruit basket memory leak
+* 7c30031 Added fruit poem
+* e805620 Added fruit list
+* 69c2d18 Removed kiwis from main
+* 09a9294 Fruit basket commit
+* 1d3e2d4 Initial commit
+
