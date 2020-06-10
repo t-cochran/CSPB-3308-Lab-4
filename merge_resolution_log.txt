@@ -20,3 +20,10 @@ Partner: Thomas Dolan (Github username: tjdolan121)
 * 69c2d18 Removed kiwis from main
 * 09a9294 Fruit basket commit
 * 1d3e2d4 Initial commit
+
+Second attempt to create a merge conflict:
+<<<<<<< HEAD
+**Each person works on their own repository until step 14 this might cause a merge conflict.**
+=======
+**Each person works on their own repository until step 14.**  TRYING TO MAKE A CONFLICT
+>>>>>>> b493bd43311106bf7c88e6edc4c7fc6277ebc83e

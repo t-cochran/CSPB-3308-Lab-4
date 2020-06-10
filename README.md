@@ -8,7 +8,7 @@ Partner: Thomas Dolan (tjdolan121)
 * Work with another person and a git repository
 * Understand git
 
-**Each person works on their own repository until step 14 this might cause a merge conflict.**
+**Each person works on their own repository until step 14.*
 
 1. If you do not already have one, create a GitHub account. Also apply for a student developer account.
 2. Create a Public git repository.
